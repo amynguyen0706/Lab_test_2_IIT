@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girl Develop It</title>
+</head>
+<style>
+    /* Reset CSS */
+    /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+    body {
+        margin-left: 10px;
+    }
+    /* Headings */
+    .heading {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /* About_Paragraph */
+    .bold{
+        font-weight: bold;
+    }
+    .italic {
+        font-style: italic;
+    }
+    /* Our Locations_List */
+    .sublist {
+        text-decoration: underline;
+        text-decoration-color: blue;
+    }
+    /* Upcoming Classes_Table */
+    table, th, td {
+        border: 1px solid;
+    }
+</style>
+<body>
+    <!-- Header -->
+    <div class="logo"><img src="./assets/Girl_Dev_It.png" alt=""></div>
+    <!-- About -->
+    <div class="heading"><h1>About</h1></div>
+    <div class="para"><p>It can be intimidating for women to learn and ask questions when they are in an <div class="bold">extreme minority</div>. While open and welcoming, today's budding developer community is up to <div class="bold">91% male</div>. If we can empower more females with the confidence in their technological capabilities <div class="italic">we can begin to change this landscape</div>.</p></div>
+    <!-- Our Locations -->
+    <div class="heading"><h2>Out Locations</h2></div>
+    <ul>
+        <li>USA</li>
+        <div class="sublist">
+            <ul>
+                <li>New York</li>
+                <li>Columbus</li>
+                <li>Austin</li>
+                <li>Philly</li>
+            </ul>
+        </div>
+        <li>World</li>
+        <div class="sublist">
+            <ul>
+                <li>Ottawa</li>
+                <li>Sydney</li>
+            </ul>
+        </div>
+    </ul>
+    <!-- Upcoming Classes -->
+    <div class="heading"><h2>Upcoming Classes</h2></div>
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>JavaScript & jQuery</td>
+        </tr>
+        <tr>
+            <td>San Francisco</td>
+            <td>HTML & CSS</td>
+        </tr>
+    </table>
+    <!-- Sign Up! -->
+    <div class="heading"><h2>Sign Up!</h2></div>
+    <div class="form">
+        <span>Name:</span>
+        <input type="text">
+        <br>
+        <span>Email:</span>
+        <input type="text">
+        <br>
+        <label for="location">Location</label>
+        <select name="location" id="">
+            <option value="location">San Francisco</option>
+            <option value="location">New York</option>
+        </select>        
+    </div>
+    <div class="form gender">
+        <label for="gender">Gender</label>
+        <div class="gender-opts">
+            <input type="radio" name="" id="">Female
+            <input type="radio" name="" id="">Male
+        </div>
+    </div>
+    <!-- Form-Experience -->
+    <label for="experience">Experience:</label>
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    <!-- Sign up button -->
+    <button>Sign up</button>
+    <br>
+    <!-- Footer -->
+    <p><a href="#">Twitter | </a><a href="#">Facebook | </a><a href="#">Flickr</a></p>
+</body>
+</html>
